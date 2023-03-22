@@ -1,0 +1,42 @@
+package linkedList;
+
+import java.util.Scanner;
+
+import linkedlist.Node;
+
+public class MergeShortLL {
+	
+	public static Node<Integer> takeInput(){
+		Scanner s = new Scanner(System.in);
+		int data = s.nextInt();
+		Node<Integer> head =null,temp=null;
+		while(data!=-1) {
+			Node<Integer> child = new Node(data);
+			if(head==null) {
+				head = child;
+				temp = head;
+			}else {
+				temp.next = child;
+				temp = child;
+			}
+			data = s.nextInt();
+			
+		}
+		return head;
+	}
+	public static void printR(Node<Integer> head) {
+		if(head==null) {
+			return;
+		}
+		System.out.print(head.data + " ");
+		printR(head.next);
+	}
+
+	public static void main(String[] args) {
+		Node<Integer> head = takeInput();
+//		head = mergeSort(head);
+		printR(head);
+
+	}
+
+}

@@ -1,19 +1,6 @@
 package linkedlist;
 
-import java.security.GuardedObject;
 import java.util.*;
-
-class DoubleNode{
-	Node<Integer> head;
-	Node<Integer> tail;
-	public DoubleNode() {
-		
-	}
-	public DoubleNode(Node<Integer> head, Node<Integer>tail) {
-		this.head = head;
-		this.tail = tail;
-	}
-}
 
 public class NodeUse {
 	
@@ -88,24 +75,19 @@ public class NodeUse {
 	}
 	
 	public static Node<Integer> reverseR(Node<Integer>head){
-		if(head==null || head.next == null) {
+		if(head==null) {
 			return head;
 		}
-		Node<Integer> smallHead = reverseR(head.next);
-		head.next.next = head;
-		head.next = null;
-		return smallHead;
-	}
-	public static DoubleNode reverseRBetter(Node<Integer> head) {
-		if(head ==null || head.next==null) {
-			DoubleNode ans = new DoubleNode(head, head);
-			return ans;
+		Node<Integer> reverseHead = reverseR(head.next);
+		Node<Integer> newHead = reverseHead;
+		if(reverseHead!=null) {
+			while(reverseHead.next!=null) {
+				reverseHead = reverseHead.next;
+			}
+			reverseHead.next = head;
+			return newHead;
 		}
-		DoubleNode smallHead = reverseRBetter(head.next);
-		smallHead.tail.next = head;
-		head.next = null;
-		DoubleNode ans = new DoubleNode(smallHead.head, head);
-		return ans;
+		
 	}
 	
 
@@ -115,8 +97,8 @@ public class NodeUse {
 //		rPrintLL(head);
 //		head = insertR(head, 5, 10);
 //		head = deleteR(head, 4);
-		DoubleNode ans = reverseRBetter(head);
-		rPrintLL(ans.head);
+		reverseR(head);
+		rPrintLL(head);
 
 
 	}

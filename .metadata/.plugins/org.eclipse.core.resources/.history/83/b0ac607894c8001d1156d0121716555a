@@ -1,19 +1,6 @@
 package linkedlist;
 
-import java.security.GuardedObject;
 import java.util.*;
-
-class DoubleNode{
-	Node<Integer> head;
-	Node<Integer> tail;
-	public DoubleNode() {
-		
-	}
-	public DoubleNode(Node<Integer> head, Node<Integer>tail) {
-		this.head = head;
-		this.tail = tail;
-	}
-}
 
 public class NodeUse {
 	
@@ -87,36 +74,14 @@ public class NodeUse {
 		return head;
 	}
 	
-	public static Node<Integer> reverseR(Node<Integer>head){
-		if(head==null || head.next == null) {
-			return head;
-		}
-		Node<Integer> smallHead = reverseR(head.next);
-		head.next.next = head;
-		head.next = null;
-		return smallHead;
-	}
-	public static DoubleNode reverseRBetter(Node<Integer> head) {
-		if(head ==null || head.next==null) {
-			DoubleNode ans = new DoubleNode(head, head);
-			return ans;
-		}
-		DoubleNode smallHead = reverseRBetter(head.next);
-		smallHead.tail.next = head;
-		head.next = null;
-		DoubleNode ans = new DoubleNode(smallHead.head, head);
-		return ans;
-	}
-	
 
 	public static void main(String[] args) {
 		Node<Integer> arr = takeInput();
 		Node<Integer> head = arr;
 //		rPrintLL(head);
 //		head = insertR(head, 5, 10);
-//		head = deleteR(head, 4);
-		DoubleNode ans = reverseRBetter(head);
-		rPrintLL(ans.head);
+		head = deleteR(head, 0);
+		rPrintLL(head);
 
 
 	}

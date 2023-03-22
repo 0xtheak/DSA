@@ -102,7 +102,7 @@ public class NodeUse {
 			return ans;
 		}
 		DoubleNode smallHead = reverseRBetter(head.next);
-		smallHead.tail.next = head;
+		smallHead.tail = head;
 		head.next = null;
 		DoubleNode ans = new DoubleNode(smallHead.head, head);
 		return ans;
