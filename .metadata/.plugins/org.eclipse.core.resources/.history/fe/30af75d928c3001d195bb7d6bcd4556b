@@ -1,0 +1,35 @@
+package linkedlist;
+
+import java.util.*;
+
+public class NodeUse {
+	
+	public static Node<Integer> createNode(){
+		Node<Integer> arr = new Node<>(1);
+		Node<Integer> arr2 = new Node<>(2);
+		Node<Integer> arr3 = new Node<>(3);
+		Node<Integer> arr4 = new Node<>(4);
+		arr.next = arr2;
+		arr2.next = arr3;
+		arr3.next = arr4;
+		return arr;
+	}
+	
+	public static void printLL(Node<Integer> head) {
+		while(head!=null) {
+			System.out.println(head.data);
+			head = head.next;
+		}
+	}
+
+	public static void main(String[] args) {
+		Node<Integer> arr = createNode();
+		Node<Integer> head = arr;
+		while(head!=null) {
+			System.out.println(head.data);
+			head = head.next;
+		}
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package exceptions;
+
+public class ExceptionDemo {
+	
+	public static int divide(int a, int b) throws DivideByZero {
+		if(b==0) {
+			throw new DivideByZero();
+		}
+		
+		return a/b;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			divide(1, 1);
+		}catch(DivideByZero d) {
+			d.printStackTrace();
+			System.out.println("inside the catch block");
+		}
+		
+	}
+
+}

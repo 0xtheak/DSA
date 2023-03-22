@@ -1,0 +1,24 @@
+package oops;
+
+public class FractionUse {
+
+	public static void main(String[] args) {
+		try {
+			Fraction f1 = new Fraction(6, 9);
+			f1.print();
+			
+			Fraction f2 = new Fraction(2, 4);
+			f2.print();
+			f1.add(f2);
+			f1.print();
+			Fraction f3 = Fraction.add(f1, f2);
+			f3.print();
+		}catch(DivideByZeroException e) {
+			System.out.println("Divide by zero exception");
+		}
+		
+		
+
+	}
+
+}

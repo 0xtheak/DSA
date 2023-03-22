@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.PDLOverrideSupported"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="oops.DynamicArray"/>
+    <fullyQualifiedTypeName name="oops.Polynomial"/>
+    <fullyQualifiedTypeName name="inheritance.Vehicle"/>
+    <fullyQualifiedTypeName name="exceptions.DivideByZero"/>
+    <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
+    <fullyQualifiedTypeName name="oops.DivideByZeroException"/>
+    <fullyQualifiedTypeName name="inheritance.VehicleImp"/>
+</qualifiedTypeNameHistroy>

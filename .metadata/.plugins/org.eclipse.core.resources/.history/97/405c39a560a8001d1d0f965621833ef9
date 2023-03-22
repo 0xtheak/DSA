@@ -1,0 +1,41 @@
+package graph;
+
+import java.util.Scanner;
+import java.util.*;
+
+public class CycleDetectionUndirectedGraph {
+	
+	public static boolean cycleDeteddfs(int[][] adj, int currentVertex, int parent, boolean[] visited) {
+		visited[currentVertex] = true;
+		for(int i=0; i<adj[currentVertex].length; i++) {
+			int edge = adj[currentVertex][i];
+			if(visited[edge] && i!=parent) {
+				return true;
+			}
+			if(!visited[edge] && cycleDeteddfs(adj, edge, currentVertex, visited)==true) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int n = s.nextInt();
+		int e = s.nextInt();
+		int[][] adj = new int[n][n];
+		for(int i=0; i<e; i++) {
+			int x = s.nextInt();
+			int y = s.nextInt();
+			adj[x][y] = 1;
+			adj[y][x] = 1;
+		}
+		
+		boolean[] visited = new boolean[n];
+		System.out.println(cycleDeteddfs(adj, 0, -1, visited));
+		
+		
+
+	}
+
+}

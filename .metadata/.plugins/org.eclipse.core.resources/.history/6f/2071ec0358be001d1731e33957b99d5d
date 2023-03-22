@@ -1,0 +1,17 @@
+package exception;
+
+public class DivideFucntion {
+	
+	public static int divide(int a, int b) {
+//		if(b==0) {
+//			throw new Exception;
+//		}
+		return a/b;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		divide(1,0);
+	}
+
+}

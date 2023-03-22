@@ -1,0 +1,9 @@
+package inheritance;
+
+public interface VehicleInterface {
+	
+	boolean isMotorized();
+	
+	public abstract String getCompany();
+
+}
