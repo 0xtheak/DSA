@@ -1,0 +1,19 @@
+package stacks;
+
+public class StackUse {
+
+	public static void main(String[] args)  {
+
+		try{
+			StackUsingArray st = new StackUsingArray(20);
+			st.pop();
+			
+		}catch(StackEmptyException s) {
+			System.out.println("catch block has been executed");
+		}
+		
+		
+
+	}
+
+}

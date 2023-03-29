@@ -1,0 +1,18 @@
+package stacks;
+
+public class StackUse {
+
+	public static void main(String[] args) {
+		StackUsingArray st = new StackUsingArray();
+//		try {
+//			StackUsingArray st = new StackUsingArray();
+//			
+//		}catch(StackEmptyException s) {
+//			
+//		}
+		
+		
+
+	}
+
+}

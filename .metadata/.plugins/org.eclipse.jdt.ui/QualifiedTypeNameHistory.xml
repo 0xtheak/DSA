@@ -11,4 +11,13 @@
     <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
     <fullyQualifiedTypeName name="oops.DivideByZeroException"/>
     <fullyQualifiedTypeName name="inheritance.VehicleImp"/>
+    <fullyQualifiedTypeName name="java.security.GuardedObject"/>
+    <fullyQualifiedTypeName name="stacks.StackUsingArray"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="linkedList.Node"/>
+    <fullyQualifiedTypeName name="stacks.StackEmptyException"/>
+    <fullyQualifiedTypeName name="stacks.StackUsingLL"/>
+    <fullyQualifiedTypeName name="queues.QueueUse"/>
+    <fullyQualifiedTypeName name="queues.QueueUsingArray"/>
+    <fullyQualifiedTypeName name="queues.QueueEmptyException"/>
 </qualifiedTypeNameHistroy>

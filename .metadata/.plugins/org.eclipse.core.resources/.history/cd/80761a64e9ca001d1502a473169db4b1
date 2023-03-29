@@ -1,0 +1,15 @@
+package stacks;
+
+public class StackUsingArray {
+	private int[] data;
+	private int size;
+	
+	public StackUsingArray() {
+		data = new int[10];
+		size=0;
+	}
+	public void push(int ele) {
+		
+	}
+
+}

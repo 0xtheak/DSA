@@ -1,0 +1,7 @@
+package queues;
+
+public class QueueUsingArray {
+	private int data[];
+	private int front;
+	private int rear;
+}

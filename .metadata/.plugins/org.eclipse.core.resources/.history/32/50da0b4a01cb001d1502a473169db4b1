@@ -1,0 +1,8 @@
+package stacks;
+import linkedList.Node;
+
+public class StackUsingLL<T> {
+	Node<T> data;
+	
+	
+}

@@ -1,0 +1,27 @@
+package stacks;
+
+public class StackUsingArray {
+	private int[] data;
+	private int topIndex;
+	
+	public StackUsingArray() {
+		data = new int[10];
+		topIndex=0;
+	}
+	public void push(int ele) {
+		
+	}
+	public int pop() {
+		
+	}
+	public int top() {
+		
+	}
+	public int size() {
+		
+	}
+	public boolean isEmpty() {
+		
+	}
+
+}

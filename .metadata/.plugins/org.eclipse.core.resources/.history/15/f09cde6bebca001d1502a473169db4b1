@@ -1,0 +1,16 @@
+package stacks;
+
+public class StackUse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StackUsingArray st = new StackUsingArray();
+		st.push(10);
+		System.out.println(st.pop());
+		st.push(20);
+		System.out.println(st.isEmpty());
+		
+
+	}
+
+}

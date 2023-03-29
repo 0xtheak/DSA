@@ -1,0 +1,7 @@
+package queues;
+
+import Exception;
+
+public class QueueFullException extends Exception {
+
+}
