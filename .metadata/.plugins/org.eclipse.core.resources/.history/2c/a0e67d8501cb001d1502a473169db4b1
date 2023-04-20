@@ -1,9 +1,0 @@
-package stacks;
-import linkedList.Node;
-
-public class StackUsingLL<T> {
-	private Node<T> data;
-	
-	
-	
-}

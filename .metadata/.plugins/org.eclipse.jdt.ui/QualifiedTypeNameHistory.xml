@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.PDLOverrideSupported"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Package"/>
     <fullyQualifiedTypeName name="oops.DynamicArray"/>
     <fullyQualifiedTypeName name="oops.Polynomial"/>
@@ -20,4 +19,7 @@
     <fullyQualifiedTypeName name="queues.QueueUse"/>
     <fullyQualifiedTypeName name="queues.QueueUsingArray"/>
     <fullyQualifiedTypeName name="queues.QueueEmptyException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="binaryTree.BinaryTreeNode"/>
 </qualifiedTypeNameHistroy>

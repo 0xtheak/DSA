@@ -1,7 +1,0 @@
-package queues;
-
-import Exceptions;
-
-public class QueueFullException extends Exceptions {
-
-}

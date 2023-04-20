@@ -4,21 +4,19 @@ public class QueueUse {
 
 	public static void main(String[] args) {
 		try {
-			QueueUsingArray queue = new QueueUsingArray();
-			queue.enqueue(10);
-//			System.out.println(queue.dequeue());
-//			System.out.println(queue.isEmpty());
+			QueueUsingLL<Integer> queue = new QueueUsingLL<>();
+
 			queue.enqueue(8);
 			queue.enqueue(200);
 			queue.enqueue(5);
 			queue.enqueue(2);
 			queue.dequeue();
 			queue.dequeue();
-			queue.dequeue();
+//			queue.dequeue();
 			queue.enqueue(20);
 			queue.enqueue(20);
 			queue.enqueue(20);
-//			queue.enqueue(20);
+			queue.enqueue(20);
 			
 //			System.out.println(queue.rear());
 			while(!queue.isEmpty()) {
@@ -26,8 +24,6 @@ public class QueueUse {
 				queue.dequeue();
 			}
 			
-		}catch(QueueFullException qf) {
-			qf.printStackTrace();
 		}catch(QueueEmptyException qe) {
 			qe.printStackTrace();
 		}
