@@ -1,9 +1,9 @@
 package binaryTree;
 
-public class BinaryTreeUse {
+public class BSTUse {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 	}
 

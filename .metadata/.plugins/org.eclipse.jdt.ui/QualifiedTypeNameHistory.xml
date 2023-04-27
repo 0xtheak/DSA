@@ -21,5 +21,8 @@
     <fullyQualifiedTypeName name="queues.QueueEmptyException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="binaryTree.BalanceTreeReturn"/>
     <fullyQualifiedTypeName name="binaryTree.BinaryTreeNode"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+    <fullyQualifiedTypeName name="binaryTree.CheckBSTReturn"/>
 </qualifiedTypeNameHistroy>
