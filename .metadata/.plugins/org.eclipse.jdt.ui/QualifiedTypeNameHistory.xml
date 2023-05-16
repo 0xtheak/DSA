@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.PDLOverrideSupported"/>
     <fullyQualifiedTypeName name="java.lang.Package"/>
     <fullyQualifiedTypeName name="oops.DynamicArray"/>
@@ -19,10 +18,16 @@
     <fullyQualifiedTypeName name="queues.QueueUse"/>
     <fullyQualifiedTypeName name="queues.QueueUsingArray"/>
     <fullyQualifiedTypeName name="queues.QueueEmptyException"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="binaryTree.BalanceTreeReturn"/>
     <fullyQualifiedTypeName name="binaryTree.BinaryTreeNode"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
     <fullyQualifiedTypeName name="binaryTree.CheckBSTReturn"/>
+    <fullyQualifiedTypeName name="binaryTree.BSTDeleteReturn"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicBorders.FieldBorder"/>
+    <fullyQualifiedTypeName name="recurssion.MinimumInArray"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
